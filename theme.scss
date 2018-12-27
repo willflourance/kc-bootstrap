@@ -557,7 +557,12 @@ h6.subhead {
 
 // custom styles
 
+// navbar-nav layout
 .navbar-nav{
 	margin-top: 30px;
 	float: right;
+}
+
+.navbar-nav>li>a{
+	font-size: 18px;
 }
