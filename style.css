@@ -1,5 +1,16 @@
 // custom styles - Will Flourance, Decemeber 2018
 
+// font designations
+
+body{
+	font-family: "Lato", sans-serif;
+}
+
+h1, h2, h3 {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 800;
+}
+
 // navbar layout
 .navbar-nav{
 	margin-top: 35px;
