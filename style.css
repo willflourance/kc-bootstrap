@@ -24,11 +24,14 @@ p{
 
 
 // navbar layout
+
+
 .navbar-nav{
 	margin-top: 35px;
 	float: right;
 	letter-spacing: 3px;
 }
+
 
 .navbar-nav>li>a{
 	font-size: 16px;
@@ -38,6 +41,12 @@ p{
 	max-width: 350px;
 }
 
+
+@media only screen and (max-width: 600px) {
+	.navbar-nav{
+		float: left;
+	}
+}
 
 
 // responsive images
