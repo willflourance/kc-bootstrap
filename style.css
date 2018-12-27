@@ -1,0 +1,29 @@
+// custom styles - Will Flourance, Decemeber 2018
+
+// navbar layout
+.navbar-nav{
+	margin-top: 35px;
+	float: right;
+	letter-spacing: 3px;
+}
+
+.navbar-nav>li>a{
+	font-size: 16px;
+}
+
+.navbar-brand>img{
+	max-width: 350px;
+}
+
+// responsive images
+
+.img-fluid{
+width: 100%;
+}
+
+//padding designations
+
+.px-0{
+	padding-left: 0px;
+	padding-right: 0px;
+}
