@@ -3,13 +3,25 @@
 // font designations
 
 body{
-	font-family: "Lato", sans-serif;
+	font-family: "Lato", sans-serif !important;
+	font-size: 18px !important;
 }
 
 h1, h2, h3 {
 	font-family: "Open Sans", sans-serif;
 	font-weight: 800;
 }
+
+h1{
+font-size: 48px !important;
+
+}
+
+p{
+	font-family: "Lato", sans-serif !important;
+	font-size: 24px !important;
+}
+
 
 // navbar layout
 .navbar-nav{
@@ -40,6 +52,6 @@ width: 100%;
 }
 
 .px-1{
-	padding-left: .75em;
-	padding-right: .75em;
+	padding-left: 2em;
+	padding-right: 2em;
 }
