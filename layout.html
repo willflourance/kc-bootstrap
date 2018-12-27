@@ -8,6 +8,7 @@
 
     <!-- Bootstrap -->
     <link href="theme.scss" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet">
 
     {{ content_for_header }}
 
@@ -35,7 +36,7 @@
     {% endif %}
 
     <div class="main-container" id="middle">
-      <div class="main container-fluid clearfix {% if site.has_background_image? %}well well-lg{% endif %}">
+      <div class="main container-fluid px-0 clearfix {% if site.has_background_image? %}well well-lg{% endif %}">
 
         {% if request.is_sidebar? %}
         {% include "columns_2" %}
