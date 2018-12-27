@@ -14,7 +14,7 @@
 
 // NationBuilder styles
 img {
-	max-width: 300px;
+	max-width: 350px;
 }
 
 .padtop {
@@ -553,4 +553,11 @@ h6.subhead {
 			padding: 0;
 		}
 	}
+}
+
+// custom styles
+
+.navbar-nav{
+	margin-top: 30px;
+	float: right;
 }
