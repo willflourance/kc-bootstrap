@@ -554,3 +554,46 @@ h6.subhead {
 		}
 	}
 }
+
+// custom styles
+
+// navbar-nav layout and styles
+.navbar-default{
+background-color: white !important;
+
+}
+
+.navbar-nav{
+	margin-top: 35px;
+	float: left;
+	letter-spacing: 3px;
+}
+
+.navbar-nav>li>a{
+	font-size: 16px;
+}
+
+.navbar-brand>img{
+	max-width: 350px;
+}
+
+.img-fluid{
+width: 100%;
+}
+
+.px-0{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+// font selection
+
+body{
+	font-family: "Lato", sans-serif !important;
+	font-size: 18px !important;
+}
+
+h1, h2, h3 {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 800;
+}
