@@ -23,7 +23,9 @@ p{
 }
 
 
-// navbar layout
+// navbar layout & styles
+
+
 
 
 .navbar-nav{
@@ -41,12 +43,6 @@ p{
 	max-width: 350px;
 }
 
-
-@media only screen and (max-width: 600px) {
-	.navbar-nav{
-		float: left;
-	}
-}
 
 
 // responsive images
@@ -68,7 +64,3 @@ width: 100%;
 }
 
 //background colors
-
-.bg-white{
-	background-color: #ffffff;
-}
