@@ -583,11 +583,6 @@ width: 100%;
 
 
 
-body, html {
-  height: 100%;
-  margin: 0;
-
-}
 
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://d3n8a8pro7vhmx.cloudfront.net/katiecristol/pages/24/features/original/3b_Crop_High_Saturation.jpg");
@@ -605,7 +600,18 @@ body, html {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+	font-size: 64px;
 }
+
+@media (max-width: 375px) {
+
+	.hero-text{
+		font-size: 10px !important;
+
+	}
+
+}
+
 
 .hero-text button {
   border: none;
@@ -623,25 +629,6 @@ body, html {
   color: white;
 }
 
-/* hero container
-
-.hero-image{
-	position: relative;
-	width: 100%;
-
-}
-
-
-.hero-text{
-	position: absolute;
-  top: 20%;
-	left: 0;
-	font-size: 5em;
-	color: white;
-	text-shadow: 0 0 5px black;
-	width: 100%;
-
-} */
 
 // font selection
 
